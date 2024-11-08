@@ -19,7 +19,7 @@ The **SegLungAI** project aims to develop an AI-driven solution for automatic lu
   Dr. Woods will serve as the project supervisor, providing guidance, task assignment, and support throughout the project.
 
 ### **Additional Guidance**
-- **Alex Mathewson, PhD**  
+- **Alex Matheson, PhD**  
   Research Fellow, Department of Pulmonary Medicine  
   Email: [alexander.matheson@cchmc.org](mailto:alexander.matheson@cchmc.org)  
   Dr. Mathewson will assist by providing resources, data, and any existing codebase, offering guidance as needed throughout the project.
