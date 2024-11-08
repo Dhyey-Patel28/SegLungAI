@@ -52,6 +52,20 @@ Annotated bronchopulmonary segments on arterial phase axial chest CT.
 This image highlights the detailed segmentation of lung regions, which is similar to the goal of our project—accurately segmenting neonate lung images using AI-driven methods.
 
 ## **Goals**
-1. Segment lungs from neonatal chest CT/MRI scans.
-2. Continuously refine the segmentation model to enhance accuracy and reduce manual oversight.
-3. Expand the project to include additional datasets and improve the model’s performance across a wider range of cases.
+
+1. **Segment Lungs from Neonatal Chest CT/MRI Scans**
+   - Develop and implement a robust pipeline to pre-process and segment lung regions from neonatal chest CT and MRI scans.
+   - Use semantic segmentation techniques to accurately delineate lung boundaries, focusing on the unique challenges of neonatal scans (e.g., smaller size, variations in quality).
+   - Ensure the model is capable of handling the 30 anonymized neonatal scans provided by Cincinnati Children's Hospital, with the goal of generalizing to other neonatal scans in the future.
+
+2. **Refine the Segmentation Model to Enhance Accuracy and Reduce Manual Oversight**
+   - Continuously evaluate the segmentation model using metrics like Dice Similarity Coefficient (DSC) and Intersection over Union (IoU) to measure performance.
+   - Implement iterative training with data augmentation techniques (e.g., rotation, scaling) to improve model robustness and prevent overfitting.
+   - Fine-tune the model by incorporating feedback from manual review of segmentations and adjusting the model’s hyperparameters.
+   - Introduce an active learning approach, where the model learns from human-corrected segmentations to improve over time, reducing the need for manual corrections.
+
+3. **Expand the Project to Include Additional Datasets and Improve the Model’s Performance Across a Wider Range of Cases**
+   - Incorporate diverse datasets, including those from different hospitals or neonatal conditions, to ensure the model is not biased toward a specific dataset.
+   - Investigate multi-modal segmentation by incorporating other imaging modalities (e.g., X-ray, ultrasound) to enhance the model's versatility.
+   - Explore the application of transfer learning using pre-trained models (e.g., U-Net, DeepLabV3) to boost initial performance and training speed.
+   - Aim for the model to reach clinical-grade performance, minimizing the need for manual corrections, and be adaptable to other pediatric imaging tasks beyond lung segmentation.
