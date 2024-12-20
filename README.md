@@ -1,6 +1,4 @@
-# Final Design Report
-
-Welcome to the repository for our Final Fall Design Report. This document serves as a comprehensive record of our project work, including user stories, design diagrams, project tasks, ABET concerns, and more.
+# Final Design Report - SegLungAI
 
 ## Table of Contents
 
@@ -24,97 +22,69 @@ Welcome to the repository for our Final Fall Design Report. This document serves
 
 ## Team Names and Project Abstract
 
-### Team Names
-[Include team member names here.]
+### Team Name
+**SegLungAI**
 
-### Advisor
-[Advisor name here.]
+### Faculty Advisor
+**Jason C. Woods, PhD**
 
 ### Project Abstract
-[Insert your project abstract, limited to 400 ASCII characters.]
+SegLungAI leverages semantic segmentation techniques to automatically detect and segment lung regions in chest CT and MRI scans for neonates. The project aims to minimize manual review and improve accuracy by iteratively refining the segmentation model to achieve clinical-grade performance.
 
 ---
 
 ## Project Description
-
-[Add the updated project description here.]
+Refer to the detailed [Project Description](#).
 
 ---
 
 ## User Stories and Design Diagrams
 
 ### User Stories
-[Add user stories here.]
+- Detailed user requirements and how they interact with the system.
 
 ### Design Diagrams
-- **Level 0 Diagram**: [Description and diagram]
-- **Level 1 Diagram**: [Description and diagram]
-- **Level 2 Diagram**: [Description and diagram]
-
-**Description of the Diagrams:**
-[Provide conventions used and a brief description of the purpose of each component.]
+- Level 0, Level 1, and Level 2 diagrams, including conventions and purposes of each component.
 
 ---
 
 ## Project Tasks and Timeline
 
 ### Task List
-[Add task list here.]
+- Breakdown of tasks with roles assigned.
 
 ### Timeline
-[Add updated timeline here.]
+- Visual representation of the timeline.
 
 ### Effort Matrix
-[Add effort matrix here.]
+- Distribution of effort across team members.
 
 ---
 
 ## ABET Concerns Essay
-
-[Include the ABET concerns essay here.]
+- Address ethical, global, economic, and societal concerns.
 
 ---
 
 ## PPT Slideshow
-
-[Provide a link or embed the PPT slideshow, including ABET concerns.]
+- Include visuals and insights covering the project, tasks, and ABET concerns.
 
 ---
 
 ## Self-Assessment Essays
-
-[Add self-assessment essays here.]
+- Reflections from each team member.
 
 ---
 
 ## Professional Biographies
-
-[Add professional biographies here.]
+- Team member backgrounds and expertise.
 
 ---
 
 ## Budget
-
-### Expenses to Date
-[Include expenses or state if there are none.]
-
-### Monetary Value of Donated Items
-[Include details of donated items and sources.]
+- Expenses and monetary value of donated items with sources listed.
 
 ---
 
 ## Appendix
-
-### References and Citations
-[Include references and citations here.]
-
-### Links to Code Repositories
-[Add repository links here.]
-
-### Meeting Notes
-[Include or link to meeting notes here.]
-
-### Evidence of Effort
-[Provide evidence for 45 hours of effort per team member here.]
-
----
+- References, citations, links to code repositories, meeting notes, and evidence of 45 hours of effort per team member.
