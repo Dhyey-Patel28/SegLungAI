@@ -1,8 +1,9 @@
-# Final Design Report - SegLungAI
+# Final Design Report
+**SegLungAI** is a machine learning project focused on automating the detection and segmentation of neonatal lung anomalies in MRI scans. By leveraging advanced semantic segmentation techniques, the project aims to improve accuracy and reduce the need for manual intervention in medical imaging analysis.
 
 ## Table of Contents
 
-1. [Team Names and Project Abstract](#team-names-and-project-abstract)
+1. [Team names and Project Abstract](#team-names-and-project-abstract)
 2. [Project Description](#project-description)
 3. [User Stories and Design Diagrams](#user-stories-and-design-diagrams)
    - [User Stories](#user-stories)
@@ -20,16 +21,15 @@
 
 ---
 
-## Team Names and Project Abstract
+## Team and Project Abstract
 
-### Team Name
-**SegLungAI**
-
-### Faculty Advisor
-**Jason C. Woods, PhD**
+### Team
+- **Jason C. Woods, PhD** (Faculty Advisor)
+- **Alex Matheson, PhD** (Research Fellow)
+- **Abdullah Bdaiwi, PhD** (Research Fellow)
 
 ### Project Abstract
-SegLungAI leverages semantic segmentation techniques to automatically detect and segment lung regions in chest CT and MRI scans for neonates. The project aims to minimize manual review and improve accuracy by iteratively refining the segmentation model to achieve clinical-grade performance.
+SegLungAI focuses on developing a machine learning (ML)-based solution to automatically detect and segment lung regions in neonatal chest MRI scans. The project aims to achieve high segmentation accuracy using semantic segmentation techniques, with the goal of reducing manual corrections. Over time, the project will evolve to enhance model performance and adapt to more diverse datasets.
 
 ---
 
