@@ -1,9 +1,17 @@
 # **Project Description**
 
-## **Team Name**
-SegLungAI (TBD)
-
 ## **Team Member(s)**
+- **Jason C. Woods, PhD** (Faculty Advisor)
+  Professor, UC Department of Pediatrics
+  Email: [jason.woods@cchmc.org](mailto:jason.woods@cchmc.org)
+  
+- **Alex Matheson, PhD** (Advisor)
+  Research Fellow, Department of Pulmonary Medicine within the CPIR
+  Email: [alexander.matheson@cchmc.org](mailto:alexander.matheson@cchmc.org)
+  
+- **Abdullah Bdaiwi, PhD** (Advisor)
+  Research Fellow, Department of Pulmonary Medicine within the CPIR
+  Email: [abdullah.bdaiwi@cchmc.org](mailto:abdullah.bdaiwi@cchmc.org)
 
 - **Dhyey Patel**  
   Major: Computer Science  
