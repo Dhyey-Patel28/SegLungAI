@@ -275,7 +275,7 @@ Video: This is the link to our [presentation video](https://mailuc-my.sharepoint
 ---
 
 ## Self-Assessment Essays
-- Reflections from each team member.
+- [Dhyey Patel Self Assessment](./Team%20Contract%20%26%20Individual%20Capstone%20Assessments/Markdown%20Versions%20/Dhyey%20Patel%20Individual%20Capstone%20Assessment.md)
 
 ---
 
