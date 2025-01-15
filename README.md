@@ -285,9 +285,49 @@ Video: This is the link to our [presentation video](https://mailuc-my.sharepoint
 ---
 
 ## Budget
-- Expenses and monetary value of donated items with sources listed.
+
+The **SegLungAI** project operates within a limited budget, utilizing primarily open-source tools and institutional resources. Below is a summary of the resources and their monetary value where applicable:
+
+---
+
+### Expenses
+| **Item/Resource**        | **Description**                            | **Cost (USD)**      |
+|--------------------------|--------------------------------------------|---------------------|
+| TensorFlow, PyTorch      | Open-source machine learning libraries     | Free               |
+| Segmentation Models       | Python library for semantic segmentation  | Free               |
+| Numpy, Matplotlib         | Open-source data processing tools         | Free               |
+| Medical Image Dataset     | Anonymized neonatal MRI/CT scans (donated by Cincinnati Children's Hospital) | Donated            |
+| Cloud Computing Resources | University-provided computational servers | Free               |
+
+### Monetary Value of Donated Items
+- **Neonatal MRI/CT Dataset:** Approximate value: **$5,000**
+  - Based on the cost of acquiring and anonymizing medical imaging datasets.
+- **Institutional Resources:** Approximate value: **$2,000**
+  - Includes access to research facilities, computational servers, and software licenses.
+
+### Notes
+- All resources have been acquired through donations or open-source channels.
+- No additional funds are requested for the project.
 
 ---
 
 ## Appendix
-- References, citations, links to code repositories, meeting notes, and evidence of 45 hours of effort per team member.
+
+### References and Citations
+1. Cincinnati Children's Hospital - Medical Imaging Dataset (anonymized neonatal MRI/CT scans).
+2. TensorFlow, PyTorch, and Segmentation Models Libraries - Open-source tools used for model development.
+3. Radiopaedia.org - Case studies for understanding medical imaging challenges and goals.
+
+### Links to Code Repositories
+- [SegLungAI GitHub Repository](#) *(Add link once available)*
+
+### Meeting Notes and Logs
+- Weekly progress and discussions with Dr. Jason Woods, Alex Matheson, and Abdullah Bdaiwi are documented in the project repository under the "Meeting Notes" folder.
+
+### Evidence of Effort
+- Each team member has contributed at least 45 hours of effort to the project, documented through:
+  - Weekly task updates.
+  - Individual contributions to code, presentations, and reports.
+  - Attendance and participation in team meetings.
+
+---
