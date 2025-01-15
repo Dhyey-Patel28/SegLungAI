@@ -268,9 +268,9 @@ By navigating these economic, professional, ethical, legal, and social constrain
 
 ## PPT Slideshow
 
-Slides: This is the link to our [slides](https://mailuc-my.sharepoint.com/:v:/g/personal/patel4du_mail_uc_edu/EZYAhsJXaPVHqotj3qCaTQ0Bx75I_s8bQ3-7W-pIUNNpUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=3TlOf9).
+Slides: This is the link to our [slides](https://mailuc-my.sharepoint.com/:p:/g/personal/patel4du_mail_uc_edu/Edow1TUozrZFoGWoBXp2j2gBfHnJlCPu7PhgIZKhCAePCw?e=W3MadT).
 
-Video: This is the link to our [presentation video](https://mailuc-my.sharepoint.com/:p:/g/personal/patel4du_mail_uc_edu/Edow1TUozrZFoGWoBXp2j2gBfHnJlCPu7PhgIZKhCAePCw?e=W3MadT).
+Video: This is the link to our [presentation video](https://mailuc-my.sharepoint.com/:v:/g/personal/patel4du_mail_uc_edu/EZYAhsJXaPVHqotj3qCaTQ0Bx75I_s8bQ3-7W-pIUNNpUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=3TlOf9).
 
 ---
 
