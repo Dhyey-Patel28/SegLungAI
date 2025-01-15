@@ -280,7 +280,7 @@ Video: This is the link to our [presentation video](https://mailuc-my.sharepoint
 ---
 
 ## Professional Biographies
-- Team member backgrounds and expertise.
+- [Dhyey Patel Professional Biography](./Professional%20Biography.md)
 
 ---
 
