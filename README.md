@@ -122,7 +122,7 @@ The project utilizes Python and machine learning frameworks like TensorFlow and 
 #### D0 Diagram
 - Represents the highest-level overview of the system.
 - Highlights basic inputs (MRI scans) and outputs (segmented lung masks).
-- [View D0 Diagram](./Design_Diagrams/Design_Diagram_D0.png)
+![alt text](./Design%20Diagrams/Design_Diagram_D0.png)
 
 #### D1 Diagram
 - Breaks the system into major subsystems:
@@ -130,7 +130,7 @@ The project utilizes Python and machine learning frameworks like TensorFlow and 
   - Semantic Segmentation Model
   - Post-Processing
   - Evaluation Metrics
-- [View D1 Diagram](./Design_Diagrams/Design_Diagram_D1.png)
+![alt text](./Design%20Diagrams/Design_Diagram_D1.png)
 
 #### D2 Diagram
 - Provides detailed breakdowns of the subsystems:
@@ -138,7 +138,7 @@ The project utilizes Python and machine learning frameworks like TensorFlow and 
   - Model training with specific layers and configurations.
   - Post-processing steps like thresholding and visualization.
   - Evaluation methods, including Dice Similarity Coefficient and Intersection over Union metrics.
-- [View D2 Diagram](./Design_Diagrams/Design_Diagram_D2.png)
+![alt text](./Design%20Diagrams/Design_Diagram_D2.png)
 
 #### Diagram Interpretation
 - **Symbols and Conventions**:
