@@ -319,7 +319,7 @@ The **SegLungAI** project operates within a limited budget, utilizing primarily 
 3. Radiopaedia.org - Case studies for understanding medical imaging challenges and goals.
 
 ### Links to Code Repositories
-- [SegLungAI GitHub Repository](#) *(Add link once available)*
+- [SegLungAI GitHub Repository](https://github.com/Dhyey-Patel28/SegLungAI)
 
 ### Meeting Notes and Logs
 - Weekly progress and discussions with Dr. Jason Woods, Alex Matheson, and Abdullah Bdaiwi are documented in the project repository under the "Meeting Notes" folder.
