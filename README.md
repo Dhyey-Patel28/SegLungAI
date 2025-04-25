@@ -24,12 +24,22 @@
 ## Team and Project Abstract
 
 ### Team
+- Dhyey Patel
 - **Jason C. Woods, PhD** (Faculty Advisor)
-- **Alex Matheson, PhD** (Research Fellow)
-- **Abdullah Bdaiwi, PhD** (Research Fellow)
+- **Alex Matheson, PhD** (Research Fellow, Collaborator)
+- **Abdullah Bdaiwi, PhD** (Research Fellow, Collaborator)
 
-### Project Abstract
-SegLungAI focuses on developing a machine learning (ML)-based solution to automatically detect and segment lung regions in neonatal chest MRI scans. The project aims to achieve high segmentation accuracy using semantic segmentation techniques, with the goal of reducing manual corrections. Over time, the project will evolve to enhance model performance and adapt to more diverse datasets.
+## Project Overview
+
+**Purpose:**  Develop an automated AI-based lung segmentation pipeline for neonatal chest MRI.
+
+**Techniques:**  
+- Semantic segmentation with U-Net (ResNet-50 backbone)
+- Robust data augmentation and preprocessing
+- Comprehensive evaluation metrics (Dice coefficient, IoU, ROC AUC)
+
+**Clinical Impact:**  
+Automates segmentation tasks, reduces clinical workload, and enables rapid diagnosis of neonatal lung conditions.
 
 ---
 
@@ -40,11 +50,11 @@ SegLungAI focuses on developing a machine learning (ML)-based solution to automa
   Professor, UC Department of Pediatrics  
   Email: [jason.woods@cchmc.org](mailto:jason.woods@cchmc.org)
 
-- **Alex Matheson, PhD** (Advisor)  
+- **Alex Matheson, PhD** (Collaborator)  
   Research Fellow, Department of Pulmonary Medicine within the CPIR  
   Email: [alexander.matheson@cchmc.org](mailto:alexander.matheson@cchmc.org)
 
-- **Abdullah Bdaiwi, PhD** (Advisor)  
+- **Abdullah Bdaiwi, PhD** (Collaborator)  
   Research Fellow, Department of Pulmonary Medicine within the CPIR  
   Email: [abdullah.bdaiwi@cchmc.org](mailto:abdullah.bdaiwi@cchmc.org)
 
@@ -55,17 +65,17 @@ SegLungAI focuses on developing a machine learning (ML)-based solution to automa
 ---
 
 ### Project Topic Area
-The **SegLungAI** project aims to develop an AI-driven solution for automatic lung anomaly detection and segmentation in neonates using CT and MRI chest scans. The primary objective is to achieve high-accuracy lung segmentation through semantic segmentation techniques in Python. The project will begin by segmenting lungs from chest scans of neonates, utilizing 30 anonymized images provided by Cincinnati Children's Hospital. Over time, additional goals and features will be introduced to further enhance model performance.
+The **SegLungAI** project aims to develop an AI-driven solution for automatic lung anomaly detection and segmentation in neonates using MRI chest scans. The primary objective is to achieve high-accuracy lung segmentation through semantic segmentation techniques in Python. The project will begin by segmenting lungs from chest scans of neonates, utilizing 30 anonymized images provided by Cincinnati Children's Hospital. Over time, additional goals and features will be introduced to further enhance model performance.
 
 ---
 
 ### Project Abstract
-**SegLungAI** leverages semantic segmentation techniques to automatically detect and segment lung regions in neonatal chest CT and MRI scans. The project uses a U-Net model with a ResNet-34 backbone to ensure high accuracy while addressing the unique challenges of neonatal imaging. With a focus on scalability, the project utilizes open-source tools and resources provided by Cincinnati Children's Hospital. Collaborating with medical professionals, SegLungAI aims to streamline diagnostic workflows and enhance precision in neonatal healthcare.
+**SegLungAI** leverages semantic segmentation techniques to automatically detect and segment lung regions in neonatal chest MRI scans. The project uses a U-Net model with a ResNet-50 backbone to ensure high accuracy while addressing the unique challenges of neonatal imaging. With a focus on scalability, the project utilizes open-source tools and resources provided by Cincinnati Children's Hospital. Collaborating with medical professionals, SegLungAI aims to streamline diagnostic workflows and enhance precision in neonatal healthcare.
 
 ---
 
 ### Problem Statement
-Manual lung segmentation from neonatal CT/MRI scans is time-consuming, often taking months to complete for each patient. Current tools lack the precision needed to eliminate manual review, requiring human oversight for correcting mislabels or missing data. This project addresses these challenges by automating the process to save time and improve accuracy.
+Manual lung segmentation from neonatal MRI scans is time-consuming, often taking months to complete for each patient. Current tools lack the precision needed to eliminate manual review, requiring human oversight for correcting mislabels or missing data. This project addresses these challenges by automating the process to save time and improve accuracy.
 
 ---
 
@@ -75,20 +85,20 @@ Existing neonatal lung segmentation methods often fail to fully address the comp
 ---
 
 ### Technical Background
-The project utilizes Python and machine learning frameworks like TensorFlow and PyTorch, focusing on semantic segmentation techniques. Tools such as OpenCV will be used for image processing. The model will be trained on 30 anonymized neonatal chest CT/MRI scans provided by Cincinnati Children’s Hospital.
+The project utilizes Python and machine learning frameworks like TensorFlow and PyTorch, focusing on semantic segmentation techniques. Tools such as OpenCV will be used for image processing. The model will be trained on 30 anonymized neonatal chest MRI scans provided by Cincinnati Children’s Hospital.
 
 ---
 
 ### Approach
 1. **Data Preprocessing**: Initial image pre-processing includes resizing, normalization, and augmentation techniques to improve model performance.
-2. **Model Development**: Implementing a U-Net model with a ResNet-34 backbone to achieve precise lung segmentation.
+2. **Model Development**: Implementing a U-Net model with a ResNet-50 backbone to achieve precise lung segmentation.
 3. **Evaluation**: Iteratively improving the model using metrics like Dice Similarity Coefficient (DSC) and Intersection over Union (IoU).
 4. **Automation**: Developing a pipeline to generalize segmentation capabilities across various neonatal imaging datasets.
 
 ---
 
 ### Goals
-1. **Segment Neonatal Lungs from MRI/CT Scans**  
+1. **Segment Neonatal Lungs from MRI Scans**  
    - Create a robust pipeline for lung segmentation using semantic segmentation techniques.  
    - Achieve high accuracy and reduce manual corrections.  
 
@@ -166,7 +176,7 @@ This milestone involves preparing the dataset for training by applying augmentat
 #### 2. Model Development and Training
 This milestone focuses on implementing and training the semantic segmentation model:
 - Modifying Abood's code to fit the project goals.
-- Integrating the ResNet-34 backbone with the U-Net architecture.
+- Integrating the ResNet-50 backbone with the U-Net architecture.
 - Training the model using augmented data and saving intermediate results.
 
 #### 3. Post-Processing and Visualization
@@ -201,7 +211,7 @@ This milestone involves creating deliverables for meetings and the final report:
 | Implement data augmentation pipeline                  | Sep 19, 2024     | Sep 22, 2024     |
 | Preprocess dataset (resize, normalize)                | Sep 23, 2024     | Sep 25, 2024     |
 | Modify Abood's code for model integration             | Sep 26, 2024     | Sep 30, 2024     |
-| Train U-Net with ResNet-34 backbone                   | Oct 1, 2024      | Oct 10, 2024     |
+| Train U-Net with ResNet-50 backbone                   | Oct 1, 2024      | Oct 10, 2024     |
 | Save and document training outputs (metrics/plots)    | Oct 11, 2024     | Oct 13, 2024     |
 | Generate and save binary masks                        | Oct 14, 2024     | Oct 16, 2024     |
 | Overlay masks on images for validation                | Oct 17, 2024     | Oct 19, 2024     |
@@ -221,7 +231,7 @@ This milestone involves creating deliverables for meetings and the final report:
 | Implement data augmentation pipeline                  | 3                      | Data Augmentation and Preprocessing    |
 | Preprocess dataset (resize, normalize)                | 2                      | Data Augmentation and Preprocessing    |
 | Modify Abood's code for model integration             | 5                      | Model Development and Training         |
-| Train U-Net with ResNet-34 backbone                   | 5                      | Model Development and Training         |
+| Train U-Net with ResNet-50 backbone                   | 5                      | Model Development and Training         |
 | Save and document training outputs (metrics/plots)    | 2                      | Post-Processing and Visualization      |
 | Generate and save binary masks                        | 3                      | Post-Processing and Visualization      |
 | Overlay masks on images for validation                | 3                      | Post-Processing and Visualization      |
@@ -296,11 +306,11 @@ The **SegLungAI** project operates within a limited budget, utilizing primarily 
 | TensorFlow, PyTorch      | Open-source machine learning libraries     | Free               |
 | Segmentation Models       | Python library for semantic segmentation  | Free               |
 | Numpy, Matplotlib         | Open-source data processing tools         | Free               |
-| Medical Image Dataset     | Anonymized neonatal MRI/CT scans (donated by Cincinnati Children's Hospital) | Donated            |
+| Medical Image Dataset     | Anonymized neonatal MRI scans (donated by Cincinnati Children's Hospital) | Donated            |
 | Cloud Computing Resources | University-provided computational servers | Free               |
 
 ### Monetary Value of Donated Items
-- **Neonatal MRI/CT Dataset:** Approximate value: **$5,000**
+- **Neonatal MRI Dataset:** Approximate value: **$5,000**
   - Based on the cost of acquiring and anonymizing medical imaging datasets.
 - **Institutional Resources:** Approximate value: **$2,000**
   - Includes access to research facilities, computational servers, and software licenses.
@@ -314,7 +324,7 @@ The **SegLungAI** project operates within a limited budget, utilizing primarily 
 ## Appendix
 
 ### References and Citations
-1. Cincinnati Children's Hospital - Medical Imaging Dataset (anonymized neonatal MRI/CT scans).
+1. Cincinnati Children's Hospital - Medical Imaging Dataset (anonymized neonatal MRI scans).
 2. TensorFlow, PyTorch, and Segmentation Models Libraries - Open-source tools used for model development.
 3. Radiopaedia.org - Case studies for understanding medical imaging challenges and goals.
 
