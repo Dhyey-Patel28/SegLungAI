@@ -21,7 +21,7 @@
 
 ---
 
-## Team and Project Abstract
+## Team and Project Overview
 
 ### Team
 - Dhyey Patel
