@@ -18,7 +18,7 @@
   Email: [patel4du@mail.uc.edu](mailto:patel4du@mail.uc.edu)
 
 ## **Project Topic Area**
-The **SegLungAI** project aims to develop an AI-driven solution for automatic lung anomaly detection and segmentation in neonates using CT and MRI chest scans. The primary objective is to achieve high-accuracy lung segmentation through semantic segmentation techniques in Python. The project will begin by segmenting lungs from chest scans of neonates, utilizing 30 anonymized images provided by Cincinnati Children's Hospital. As the project progresses, new goals and features will be added to further enhance model performance.
+The **SegLungAI** project aims to develop an AI-driven solution for automatic lung anomaly detection and segmentation in neonates using MRI chest scans. The primary objective is to achieve high-accuracy lung segmentation through semantic segmentation techniques in Python. The project will begin by segmenting lungs from chest scans of neonates, utilizing 30 anonymized images provided by Cincinnati Children's Hospital. As the project progresses, new goals and features will be added to further enhance model performance.
 
 ### **Faculty Advisor**
 - **Jason C. Woods, PhD**  
@@ -33,16 +33,16 @@ The **SegLungAI** project aims to develop an AI-driven solution for automatic lu
   Dr. Mathewson will assist by providing resources, data, and any existing codebase, offering guidance as needed throughout the project.
 
 ## **Project Abstract**
-**SegLungAI** will leverage semantic segmentation techniques to automatically detect and segment lung regions in chest CT and MRI scans. The goal is to develop an AI model in Python that achieves high accuracy in lung segmentation, reducing the need for manual corrections. As the project progresses, additional features and improvements will be incorporated to enhance model performance and extend the project’s capabilities.
+**SegLungAI** will leverage semantic segmentation techniques to automatically detect and segment lung regions in chest MRI scans. The goal is to develop an AI model in Python that achieves high accuracy in lung segmentation, reducing the need for manual corrections. As the project progresses, additional features and improvements will be incorporated to enhance model performance and extend the project’s capabilities.
 
 ## **Problem Statement**
-Previously, lung segmentation from chest CT/MRI scans was done manually, taking months to complete for each patient and scan. While there are existing tools for segmentation, they still lack the accuracy needed to eliminate the need for manual review, which still requires human oversight for correcting mislabels or missing data.
+Previously, lung segmentation from chest MRI scans was done manually, taking months to complete for each patient and scan. While there are existing tools for segmentation, they still lack the accuracy needed to eliminate the need for manual review, which still requires human oversight for correcting mislabels or missing data.
 
 ## **Current Solutions and Gaps**
-Current neonatal lung segmentation methods often lack the precision required for clinical use. Existing tools fail to fully address the complexities of neonatal CT/MRI scans, which vary in quality and resolution, leading to inaccuracies that require human intervention.
+Current neonatal lung segmentation methods often lack the precision required for clinical use. Existing tools fail to fully address the complexities of neonatal MRI scans, which vary in quality and resolution, leading to inaccuracies that require human intervention.
 
 ## **Technical Background**
-The project will utilize Python and machine learning, focusing on semantic segmentation techniques with libraries such as TensorFlow or PyTorch. Medical imaging tools like OpenCV will also be employed. A deep learning model will be trained on 30 anonymized neonatal chest CT/MRI scans provided by Cincinnati Children’s Hospital.
+The project will utilize Python and machine learning, focusing on semantic segmentation techniques with libraries such as TensorFlow or PyTorch. Medical imaging tools like OpenCV will also be employed. A deep learning model will be trained on 30 anonymized neonatal chest MRI scans provided by Cincinnati Children’s Hospital.
 
 ## **Approach**
 The project will begin with the pre-processing of the provided image data. A semantic segmentation model will be developed to detect and segment lung structures. The model's performance will be evaluated and iteratively improved to achieve higher accuracy and minimize the need for manual review.
@@ -61,8 +61,8 @@ This image highlights the detailed segmentation of lung regions, which is simila
 
 ## **Goals**
 
-1. **Segment Lungs from Neonatal Chest CT/MRI Scans**
-   - Develop and implement a robust pipeline to pre-process and segment lung regions from neonatal chest CT and MRI scans.
+1. **Segment Lungs from Neonatal Chest MRI Scans**
+   - Develop and implement a robust pipeline to pre-process and segment lung regions from neonatal chest MRI scans.
    - Use semantic segmentation techniques to accurately delineate lung boundaries, focusing on the unique challenges of neonatal scans (e.g., smaller size, variations in quality).
    - Ensure the model is capable of handling the 30 anonymized neonatal scans provided by Cincinnati Children's Hospital, with the goal of generalizing to other neonatal scans in the future.
 
