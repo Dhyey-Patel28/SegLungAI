@@ -19,6 +19,10 @@
 9. [Budget](#budget)
 10. [Appendix](#appendix)
 
+## Documentation
+1. [User Guide](docs/USER_GUIDE.md) – high-level “how-to” steps for new users  
+2. [User Manual](docs/USER_MANUAL.md) – full reference of features, CLI options, troubleshooting
+
 ---
 
 ## Team and Project Overview
